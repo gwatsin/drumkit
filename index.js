@@ -28,6 +28,10 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
                         kick.play();
                         break;
             default:    console.log(buttonInnerHTML);
+
+            case "m":   var kick = new Audio("sounds/tom-1.mp3");
+                        kick.play();
+                        break;
         }
 
 });
